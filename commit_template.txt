@@ -1,10 +1,10 @@
 
-#commit message convention
-#Commit 할 때 아래와 같은 형식을 지켜주세요.
+# commit message convention
+# Commit 할 때 아래와 같은 형식을 지켜주세요.
 #
-#문서 생성시 add: [이름] 파일명 
-#문서 수정시 edit: [이름] 파일명
+# 문서 생성시 add: [이름] 파일명 
+# 문서 수정시 edit: [이름] 파일명
 #
 #
-#예) add: [지형] 01.HTTP 개관
+# 예) add: [지형] 01.HTTP 개관
 #    edit: [지형] 01.HTTP 개관
