@@ -40,9 +40,9 @@ HTTP(Hypetext Transfer Protocol)는 현대 인터넷 공용어이다.
 
 <br>
 
-- 예를 들어 **http**://www.oreilly.com/index.html 페이지를 열어 볼 때,
+- 예를 들어 http://<h>www.oreilly<h>.com/index.html 페이지를 열어 볼 때,
     
-  웹 브라우저는 HTTP 요청을 www.oreilly.com 서버로 보내고, 
+  웹 브라우저는 HTTP 요청을 <h>www.oreilly<h>.com 서버로 보내고, 
   
   서버는 요청 받은 객체(/index.html)을 찾고 성공했다면 타입, 길이 등의 정보와 함께
   
@@ -101,13 +101,13 @@ HTTP(Hypetext Transfer Protocol)는 현대 인터넷 공용어이다.
 
 <br>
 
-- 예를 들어, **http**://www.joes-hardware.com/special/saw-blade.gif 는 이런 의미를 가진다.
+- 예를 들어, http://<h>www.joes-hardware<h>.com/special/saw-blade.gif 는 이런 의미를 가진다.
 
 <br>
 
 -  http:// 의 의미는 `HTTP 프로토콜을 사용하라`
 
-- www.joes-hardware.com 의 의미는 `joes-hardware.com으로 이동하라`
+- <h>www.joes-hardware<h>.com 의 의미는 `joes-hardware.com으로 이동하라`
 
 - /special/saw-blade.gif 의 의미는` /special/saw-blade.gif라고 불리는 리소스를 가져와라`
 
@@ -121,7 +121,7 @@ HTTP(Hypetext Transfer Protocol)는 현대 인터넷 공용어이다.
 
 <br>
 
-- 예를 들어 **http**://www.joes-hardwoare.com/inventory-check.cgi$item=12731 는 물품 #12731의 재고가 있는지 확인하는 프로그램이라는 의미를 가진다. 
+- 예를 들어 http://<h>www.joes-hardwoare<h>.com/inventory-check.cgi$<h>item=12731 는 물품 #12731의 재고가 있는지 확인하는 프로그램이라는 의미를 가진다. 
 
 <br>
 
@@ -129,7 +129,7 @@ HTTP(Hypetext Transfer Protocol)는 현대 인터넷 공용어이다.
 
     - 리소스에 접근하기 위해 사용되는 프로토콜인 스킴 ex) http://
 
-    - 서버의 인터넷 주소를 제공 ex) www.joes-hardware.com
+    - 서버의 인터넷 주소를 제공 ex) <h>www.joes-hardware<h>.com
 
     - 웹 서버의 리소스 ex) /specials/saw-balde.gif
 
@@ -145,7 +145,7 @@ HTTP(Hypetext Transfer Protocol)는 현대 인터넷 공용어이다.
 
 - 예를 들어, urn:ietf:rfc:2141 은 인터넷 표준 문서 'RFC 2141'가 어디에 있거나 상관없이 그것을 지칭하기 위해 사용할 수 있다.
 
-- URN은 아직 실험 중인 상태이고 채택이 늦춰지고 있따.
+- URN은 아직 실험 중인 상태이고 채택이 늦춰지고 있다.
 
 <br><br>
 
@@ -322,21 +322,21 @@ HTTP(Hypetext Transfer Protocol)는 현대 인터넷 공용어이다.
 
 - 예를 들어,
 
-    - **http**://207.200.83.29:80/index.html
+    - http://<h>207.200.83.29:80<h>/index.html
 
         IP 주소 + 포트 번호
 
         <br>
 
-    - **http**://www.netscape.com:80/index.html
+    - http://<h>www.netscape<h>.com:80/index.html
 
-        글자로 된 도메인 이름 or 호스트 명(www.netscape.com)
+        글자로 된 도메인 이름 or 호스트 명(<h>www.netscape<h>.com)
 
         호스트 명은 DNS(Domain Name Service)를 통해 쉽게 IP로 변환 가능 
 
         <br>
 
-    - **http**://www.netscape.com/index.html
+    - http://<h>www.netscape<h>.com/index.html
 
         포트 번호가 빠진 경우 기본값 80
 
