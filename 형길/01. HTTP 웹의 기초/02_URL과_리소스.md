@@ -36,17 +36,17 @@
 
 - URI은 URL과 URN으로 구성된 종합적인 개념이다.
 
-- 예를 들어, http://<h>www.joes-hardware<h>.com/seasonal/index-fall.html 이라는 URL을 불러오고 싶다면
+- 예를 들어, http://<e>www.joes-hardware<e>.com/seasonal/index-fall.html 이라는 URL을 불러오고 싶다면
 
   1. http는 URL의 스킴이며 `스킴은 웹 클라이언트가 리소스에 어떻게 접근하는지 알려준다.` 해당 경우에는 HTTP 프로토콜을 사용한다는 뜻이다.
   
-  2. www.<h>joes-hardware<h>.com은 서버의 위치이다. 이는 웹 클라이언트가 `리소스가 어디에 호스팅 되어 있는지 알려준다.`
+  2. www.<e>joes-hardware<e>.com은 서버의 위치이다. 이는 웹 클라이언트가 `리소스가 어디에 호스팅 되어 있는지 알려준다.`
   
   3. /seaonal/index-fall.html은 리소스의 경로이다. `서버에 존재하는 리소스 중 요청받은 리소스가 무엇인지 알려준다.`
 
 <br>
 
-- URL은 http 뿐만 아니라 ftp://<h>ftf.lots-o.books<h>.com, rtsp://<h>www.joes-hardware<h>.com:554/cto_video 등 인터넷에 있는 어떤 리소스든지 가리킬 수 있다.
+- URL은 http 뿐만 아니라 ftp://<e>ftf.lots-o.books<e>.com, rtsp://<e>www.joes-hardware<e>.com:554/cto_video 등 인터넷에 있는 어떤 리소스든지 가리킬 수 있다.
 
 - `스킴://서버위치/경로` 구조로 이루어져 있다.
 
@@ -110,7 +110,7 @@
 
 - 이름/값 쌍의 리스트로 ';' 문자로 구분하여 URL에 기술한다. 
 
-- 예를 들어, http://<h>www.joes-hardware<h>.com/hammers;sale=false/index.html<h>;grphics=true에 대해 설명하자면
+- 예를 들어, http://<e>www.joes-hardware<e>.com/hammers;sale=false/index.html<e>;grphics=true에 대해 설명하자면
 
     hammer와 index.html이라는 두 개의 경로 조각이 있고, hammers 경로 조각은 값이 false인 sale 파라미터를 가진다. index.html 경로 조각은 값이 true인 graphics란 파라미터를 가진다.
 
@@ -124,7 +124,7 @@
 
 <br>
 
-- http://<h>www.joes-hardware<h>.com/inventory-check.cgi?item=12731&color=blue<h>&size=large
+- http://<e>www.joes-hardware<e>.com/inventory-check.cgi?item=12731&color=blue<e>&size=large
 
     질의 컴포넌트는 게이트웨이를 가리키는 경로 컴포넌트와 함께 전달된다.
 
@@ -136,7 +136,7 @@
 
 - 프래그먼트는 리소스의 특정 부분을 가리킬 수 있게 한다.
 
-- http://<h>www.joes.hardware<h>.com/tools.html#drills
+- http://<e>www.joes.hardware<e>.com/tools.html#drills
 
     해당 URL은 tools.html의 일부를 가리킨다.
 
@@ -160,11 +160,11 @@
 
 - ./hammers.html 이라고 적혀 있는 경우
 
-    1. 경로는 ./hammers.html, 기저 URL은 http://<h>www.joes.hardware<h>.com/tools.html
+    1. 경로는 ./hammers.html, 기저 URL은 http://<e>www.joes.hardware<e>.com/tools.html
 
     2. 스킴,호스트,포트는 비어 있기에 기저 URL의 스킴,호스트,포트를 상속 받는다.
     
-    3. 이를 합치면 http://<h>www.joes.hardware<h>.com/hammers.html
+    3. 이를 합치면 http://<e>www.joes.hardware<e>.com/hammers.html
 
 
 <br><br>
@@ -191,7 +191,7 @@
 
 - 안전하지 않은 문자를 퍼센트 기호(%)로 시작해 ASCII 코드로 표현되는 두개의 16진수 숫자로 이루어진 이스케이프 문자로 바꾼다.
 
-- 예를 들어 빈 문자는 http://<h>www.joes-hardware<h>.com/more%20tools.html와 같이 표현한다.
+- 예를 들어 빈 문자는 http://<e>www.joes-hardware<e>.com/more%20tools.html와 같이 표현한다.
 
 <br>
 
